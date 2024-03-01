@@ -6,7 +6,7 @@ import RegisterPageVue from "@/views/RegisterPage.vue";
 import ProfilePageVue from "@/views/ProfilePage.vue";
 
 const routes = [
-  { path: "/", component: Home },
+  { path: "/", component: LoginPageVue },
 
   { path: "/home", component: Home },
   { path: "/profile", component: ProfilePageVue },
